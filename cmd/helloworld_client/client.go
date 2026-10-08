@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/tmaxmax/go-sse"
+	"github.com/CaliLuke/go-sse"
 )
 
 func main() {

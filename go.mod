@@ -1,3 +1,3 @@
-module github.com/tmaxmax/go-sse
+module github.com/CaliLuke/go-sse
 
 go 1.22

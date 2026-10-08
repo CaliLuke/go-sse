@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tmaxmax/go-sse"
-	"github.com/tmaxmax/go-sse/internal/tests"
+	"github.com/CaliLuke/go-sse"
+	"github.com/CaliLuke/go-sse/internal/tests"
 )
 
 func replay(tb testing.TB, p sse.Replayer, lastEventID sse.EventID, topics ...string) []*sse.Message {

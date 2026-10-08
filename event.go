@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tmaxmax/go-sse/internal/parser"
+	"github.com/CaliLuke/go-sse/internal/parser"
 )
 
 // The Event struct represents an event sent to the client by a server.

@@ -10,7 +10,7 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/tmaxmax/go-sse/internal/parser"
+	"github.com/CaliLuke/go-sse/internal/parser"
 )
 
 func isSingleLine(p string) bool {

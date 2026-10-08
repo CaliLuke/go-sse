@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tmaxmax/go-sse/internal/parser"
+	"github.com/CaliLuke/go-sse/internal/parser"
 )
 
 func TestFieldParser(t *testing.T) {

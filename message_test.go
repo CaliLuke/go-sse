@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tmaxmax/go-sse/internal/parser"
-	"github.com/tmaxmax/go-sse/internal/tests"
+	"github.com/CaliLuke/go-sse/internal/parser"
+	"github.com/CaliLuke/go-sse/internal/tests"
 )
 
 func TestNew(t *testing.T) {

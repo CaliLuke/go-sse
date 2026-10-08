@@ -12,7 +12,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/tmaxmax/go-sse"
+	"github.com/CaliLuke/go-sse"
 )
 
 func main() {

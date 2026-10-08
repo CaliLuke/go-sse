@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tmaxmax/go-sse/internal/parser"
+	"github.com/CaliLuke/go-sse/internal/parser"
 )
 
 // EventCallback is a function that is used to receive events from a Connection.
