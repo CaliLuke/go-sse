@@ -2,6 +2,13 @@
 
 This file tracks changes to this project. It follows the [Keep a Changelog format](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+### Fixed
+
+- `Read` and `Connection` now discard incomplete final events at EOF. The SSE specification requires a blank line to dispatch an event; reaching EOF alone must not turn a truncated event into a successful one. Producers must terminate the final event with a blank line for it to be delivered. `Read` treats an incomplete final line as successful end-of-input, while `Connection` retains its existing EOF and reconnection behavior.
+- Preserve underlying reader errors when a partial final field is buffered, so an unexpected-EOF parser error does not hide the cause of a failed read.
+
 ## [0.11.0] - 2025-05-14
 
 The `sse.Server` logging and session handling were revamped to have more familiar, more flexible and less error prone interfaces for users.
