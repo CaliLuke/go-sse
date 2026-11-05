@@ -3,7 +3,7 @@ package sse
 import (
 	"testing"
 
-	"github.com/tmaxmax/go-sse/internal/tests"
+	"github.com/CaliLuke/go-sse/internal/tests"
 )
 
 func mustMessageField(tb testing.TB, value string) messageField { //nolint:unparam // May receive other values.

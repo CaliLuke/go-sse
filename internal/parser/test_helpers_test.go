@@ -3,7 +3,7 @@ package parser_test
 import (
 	"testing"
 
-	"github.com/tmaxmax/go-sse/internal/parser"
+	"github.com/CaliLuke/go-sse/internal/parser"
 )
 
 func newField(tb testing.TB, name parser.FieldName, value string) parser.Field {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tmaxmax/go-sse"
+	"github.com/CaliLuke/go-sse"
 )
 
 func TestReadIncompleteFinalEvent(t *testing.T) {

@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/tmaxmax/go-sse"
+	"github.com/CaliLuke/go-sse"
 )
 
 const (

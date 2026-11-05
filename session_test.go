@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/tmaxmax/go-sse"
-	"github.com/tmaxmax/go-sse/internal/tests"
+	"github.com/CaliLuke/go-sse"
+	"github.com/CaliLuke/go-sse/internal/tests"
 )
 
 func TestUpgrade(t *testing.T) {
